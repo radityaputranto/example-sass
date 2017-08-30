@@ -1,0 +1,58 @@
+/* devide class */
+ul li a {
+  color: #191B1F;
+  text-decoration: none; }
+
+#container {
+  width: 960px;
+  margin: 0 auto; }
+
+/* using operator  */
+#main {
+  width: 62.5%;
+  float: left; }
+
+#sidebar {
+  width: 37.5%;
+  float: left; }
+
+h1 {
+  font-family: "Lobster", cursive;
+  font-size: 35px;
+  color: blue; }
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  color: #191B1F; }
+
+.navbar li {
+  display: inline-block; }
+
+ul li {
+  list-style: none;
+  font-size: 27px; }
+  ul li a:hover {
+    color: yellow; }
+
+.button {
+  width: 150px;
+  padding: 5px;
+  color: white;
+  margin: 5px;
+  border-radius: 15px;
+  -ms-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -o-border-radius: 15px;
+  -webkit-border-radius: 15px; }
+
+.submit {
+  background-color: #79B643; }
+
+.delete {
+  background-color: #C80000; }
+
+.info {
+  background-color: #0282BD; }
+
+/*# sourceMappingURL=style.css.map */

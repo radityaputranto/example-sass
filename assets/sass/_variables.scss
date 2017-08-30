@@ -1,0 +1,27 @@
+$styled-font : 'Lobster', cursive;
+$big-text	 : 35px;
+$biru		 : blue;
+
+$font-normal : 'Roboto', sans-serif;
+$normal-text : 17px;
+$grey-font	 : #191B1F;
+$container-width :960px;
+$center-x		 : 0 auto;
+
+$font-menu : 27px;
+
+//extends for definition multilple style
+%ordinary-link{
+	color: $grey-font;
+	text-decoration: none;
+
+}
+
+//mixin - include like function
+@mixin border-rad($radius){
+	border-radius: $radius;
+	-ms-border-radius: $radius;
+	-moz-border-radius: $radius;
+	-o-border-radius: $radius;
+	-webkit-border-radius: $radius;
+}

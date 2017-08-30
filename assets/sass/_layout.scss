@@ -1,0 +1,67 @@
+#container{
+	width: $container-width;
+	margin: $center-x;
+}
+
+
+/* using operator  */
+#main{
+	width : 600px / $container-width * 100%; 
+	float : left;
+}
+#sidebar{
+	width : 360px / $container-width * 100%; 
+	float : left;
+}
+
+h1{
+	font-family	: $styled-font;
+	font-size	: $big-text;
+	color		: $biru;
+}
+
+p{
+	font-family	: $font-normal;
+	font-size	: $normal-text;
+	color		: $grey-font;
+}
+
+
+ 
+//Nesting : chose property in different selector +pseudo class
+.navbar{
+	li{
+		display: inline-block;
+	}
+}
+ul{
+	li{
+		
+		list-style: none;
+		font-size: $font-menu;
+		a{
+			
+			@extend %ordinary-link;
+			&:hover{
+				color:yellow;
+			}
+		}
+	}
+}
+
+.button{
+	width	:150px;
+	padding :5px;
+	color :white;
+	margin :5px;
+	@include border-rad(15px);
+}
+.submit{
+	background-color: #79B643;
+}
+.delete{
+	background-color: #C80000;
+}
+.info{
+	background-color: #0282BD ;
+}
